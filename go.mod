@@ -3,7 +3,7 @@ module contabo.com/cli/cntb
 go 1.16
 
 require (
-	contabo.com/cli/cntb/openapi v0.0.0-00010101000000-000000000000
+	./openapi v0.0.0-00010101000000-000000000000
 	github.com/PaesslerAG/gval v1.1.2 // indirect
 	github.com/PaesslerAG/jsonpath v0.1.1
 	github.com/golang-jwt/jwt v3.2.2+incompatible
@@ -21,5 +21,3 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	sigs.k8s.io/yaml v1.3.0
 )
-
-replace contabo.com/cli/cntb/openapi => ./openapi
